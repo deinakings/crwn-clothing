@@ -1,0 +1,12 @@
+.menu-item {
+  // width: 100%;
+  display: flex;
+  min-width: 28%;
+  flex: 1;
+  // align-items: middle;
+
+  .content {
+    border: solid 1px;
+    // text-align: center;
+  }
+}
