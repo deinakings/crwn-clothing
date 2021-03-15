@@ -3,10 +3,15 @@
   display: flex;
   min-width: 28%;
   flex: 1;
+  justify-content: center;
+  align-content: space-around;
+  border: solid 1px;
   // align-items: middle;
 
   .content {
     border: solid 1px;
+    display: flex;
+    flex-direction: column;
     // text-align: center;
   }
 }
