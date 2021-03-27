@@ -5,7 +5,7 @@ import ShopPage from "./pages/shop/shop.component";
 
 export default function App() {
   return (
-    <div>
+    <div className="app">
       <Route exact={true} path="/" component={Homepage} />
       <Route path="/shop" component={ShopPage} />
     </div>
