@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin-bottom: 20px;
+
+  .header-link {
+    margin: 5px 10px;
+  }
+}

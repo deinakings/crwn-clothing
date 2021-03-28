@@ -1,0 +1,12 @@
+.sign-in {
+  border: solid 1px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+
+  .input {
+    display: flex;
+    justify-content: space-between;
+  }
+}
