@@ -6,5 +6,16 @@
 
   .header-link {
     margin: 5px 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .button-link {
+    background: none;
+    border: none;
+    font-size: 1em;
+    font-family: inherit;
+    
+    cursor: pointer;
   }
 }
