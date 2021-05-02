@@ -8,6 +8,7 @@ const SignInUpPage = () => {
   return (
     <div className="sign-in-up">
       <SignIn />
+      <SignUp />
     </div>
   );
 };

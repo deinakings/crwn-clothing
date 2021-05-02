@@ -1,5 +1,7 @@
 .sign-up {
-  border: solid 1px;
+  // border: solid 1px;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   min-width: 400px;
 }
