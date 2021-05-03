@@ -1,21 +1,32 @@
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   height: 70px;
   margin-bottom: 20px;
 
-  .header-link {
-    margin: 5px 10px;
-    text-decoration: none;
-    color: inherit;
+  .logo {
+    display: flex;
+    align-items: center;
   }
 
-  .button-link {
-    background: none;
-    border: none;
-    font-size: 1em;
-    font-family: inherit;
-    
-    cursor: pointer;
+  .links {
+    display: flex;
+    align-items: center;
+
+    .header-link {
+      margin: 5px 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    .button-link {
+      background: none;
+      border: none;
+      font-size: 1em;
+      font-family: inherit;
+      
+      cursor: pointer;
+    }
   }
 }
