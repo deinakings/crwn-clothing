@@ -16,13 +16,24 @@
     color: black;
     border: solid black 1px;
   }
-   &.secondary {
-     background-color: cornflowerblue;
+  &.inverted {
+    border: solid 1px black;
+    background-color: white;
+    color: black;
 
-     &:hover {
-       border: none;
-       color: white;
-       opacity: 0.9;
-     }
-   }
+    &:hover {
+      border: none;
+      background-color: black;
+      color: white;
+    }
+  }
+  &.secondary {
+    background-color: cornflowerblue;
+
+    &:hover {
+      border: none;
+      color: white;
+      opacity: 0.9;
+    }
+  }
 }
