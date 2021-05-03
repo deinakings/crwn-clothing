@@ -1,0 +1,17 @@
+.cart-item {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+  .cart-item-image {
+    height: 80px;
+    width: 75px;
+  }
+  .item-detail {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
