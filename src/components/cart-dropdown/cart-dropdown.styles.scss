@@ -18,6 +18,14 @@
     flex-direction: column;
   }
 
+  .empty-message {
+    font-size: 1.2em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
   .checkout-button {
     margin-top: auto;
   }
